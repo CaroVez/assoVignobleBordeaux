@@ -1,12 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <div class="logo col-6"><h1>Le petit atelier de Bordeaux</h1></div>
+        <nav class="nav col-6">
+          <ul>
+            <li><a href="home.html" >accueil</a></li>
+            <li><a href="events.html" >événements</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="row">
+
+        <div class="summary col-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>À propos de nous</h2></div>
+              <div class="card-text"><p>blablabla</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map col-12">
+          <div class="card"></div>
+        </div>
+        
+        <div class="square col-6 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>Cépages et assemblage</h2></div>
+              <div class="card-text"><p>L'une des particularités des vins de Bordeaux est de provenir de l'assemblage de plusieurs cépages. L'assemblage est un art qui confère qualité, finesse et équilibre aux vins de Bordeaux.</p>
+                <h3>Principaux cépages rouges</h3>
+                <ul>
+                  <li>66% Merlot</li>
+                  <li>22% Cabernet Sauvignon</li>
+                  <li>9% Cabernet Franc</li>
+                  <li>3% Cépages auxiliaires<br>
+                      (Carmenère, Malbec, Petit Verdot)</li>
+                </ul>
+                <h3>Principaux cépages blancs</h3>
+                <ul>
+                  <li>46% Sémillion</li>
+                  <li>46% Sauvignon blanc</li>
+                  <li>5% Muscadelle</li>
+                  <li>3% Cépages auxiliaires<br>
+                      (Sauvignon gris, Colombard, Ugni blanc</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="square col-6 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>Conserver et servir le vin</h2></div>
+              <div class="card-text">
+                <h3>Conserver le vin</h3>
+                <p>Pour une conservation optimale du vin, la température doit être constante (entre 12 et 14°C) et l'hygrométrie ambiante de 70 à 80%. La lumière doit être tamisée.</p>
+                <h3>Servir dans l'ordre</h3>
+                <ul>
+                  <li>Les vins blancs secs avant les vins rouges</li>
+                  <li>Les vins jeunes avant les vins plus âgés</li>
+                  <li>Les vins légers avant les vins puissants</li>
+                </ul>
+                <h3>Décanter ou carafer ?</h3>
+                <ul>
+                  <li>Passer en carafe : opération destinée aux vins jeunes (moins de 7 ans). L'oxygénation va rendre les tanins plus soyeux, ouvrir le nez et donc rendre le vin plus agréable. Une aération de 30 à 45 mn est suffisante.</li>
+                  <li>Décantation : technique destinée aux vins vieux qui consiste à séparer le vin de son dépôt en le transvasant très délicatement dans une carafe à décanter.</li>
+                </ul>
+                <h3>À la bonne température !</h3>
+                <ul>
+                  <li>Vins rosés, clairets et crémants : 8-10°C</li>
+                  <li>Vins moelleux et liquoreux : 9-10°C</li>
+                  <li>Vins blancs secs et aromatiques : 11-12°C</li>
+                  <li>Vins rouges : 15-18°C</li>
+                </ul>
+                <p>Le vin se réchauffe très vite dans le verre (1 à 2°C en quelques minutes).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="square col-6 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>Les mots pour le dire</h2></div>
+              <div class="card-text">
+                <table border="1">
+                  <tr>
+                    <td>Bouquet<br>Ensemble des caractéristiques aromatiques d'un vin acquis par le vieillissement qui s'exprime à la longue.</td>
+                    <td>Ferme<br>Riche en tanins avec une bonne acidité.</td>
+                    <td>Ouvert<br>Vin épanoui oû les arômes s'expriment généreusement.</td>
+                  </tr>
+                  <tr>
+                    <td>Caractère<br>Notion qui renvoie au terroir, aux cépages utilisés ou encore à la vinification d'un vin.</td>
+                    <td>Frais<br>D'une acidité rafraîchissante sans être agressive.</td>
+                    <td>Puissant<br>Caractère d'un vin qui est à la fois plein, corsé, généreux et d'un riche bouquet.</td>
+                  </tr>
+                  <tr>
+                    <td>Charnu<br>Qui a de la chair, du moelleux contrairement à un vin aux sensations dures.</td>
+                    <td>Gras<br>Onctueux, peu acide.</td>
+                    <td>Robuste<br>Vigoureux, solide, avec des tanins.</td>
+                  </tr>
+                  <tr>
+                    <td>Charpenté<br>Vin riche et tannique à l'inverse d'un vin fluide et dilué. Ce vin a généralement un bon potentiel de vieillissement.</td>
+                    <td>Léger<br>Qui contient peu de matière mais reste équilibré.</td>
+                    <td>Rond<br>Sans dureté au palais. Souple, peu tannique et peu acide, bien équilibré.</td>
+                  </tr>
+                  <tr>
+                    <td>Corsé<br>Qui est charpenté et épicé.</td>
+                    <td>Long en bouche<br>Vin dont les arômes laissent en bouche un impression plaisante et persistante après la dégustation.</td>
+                    <td>Souple<br>Vin coulant dans lequel le moelleux l'emporte sur l'astringuent.</td>
+                  </tr>
+                  <tr>
+                    <td>Dense<br>Très soutenu en couleur et plein de saveurs.</td>
+                    <td>Moelleux (ou Onctueux)<br>Vin blanc sucré de Bordeaux (moins qu'un liquoreux). Se dit aussi d'un vin oû la douceur (la sucrosité) domine sur les tanins et l'acidité.</td>
+                    <td>Velouté<br>Peu acide, dominé par une impression de moelleux.</td>
+                  </tr>
+                  <tr>
+                    <td>Épanoui<br>Qui a atteint sa plénitude avec le temps : bouquet bien ouvert et tanins bien ouverts.</td>
+                    <td>Nerveux<br>Se dit d'un vin oû l'acidité domine.</td>
+                    <td>Vif<br>Vin à dominante légèrement acide conférant de la vivacité; se dit souvent pour les vins blancs secs jeunes.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="square col-6 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>La Vue</h2></div>
+              <div class="card-text">
+                <h3>1. Observer le vin</h3>
+                <p>Intensité / Éclat / Limpidité</p>
+                <h3>2. Observer les reflets</h3>
+                <p>Teintes & reflets</p>
+                <caption>Les couleurs</caption>
+                <table border="1">
+                  <tr>
+                    <td>Les vins blancs secs</td>
+                    <td>Jaune-vert<br>1 à 2 ans</td>
+                    <td>Jaune pâle<br>3 à 5 ans</td>
+                    <td>Jaune or blanc<br>6 à 10 ans</td>
+                    <td>Jaune paille<br>+ de 10 ans</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Les vins blancs doux</td>
+                    <td>Jaune or blanc<br>1 à 2 ans</td>
+                    <td>Jaune or paille<br>3 à 7 ans</td>
+                    <td>Jaune or jaune<br>7 à 15 ans</td>
+                    <td>Jaune cuivré<br>15 à 25 ans</td>
+                    <td>Jaune ambré<br>+ de 25 ans</td>
+                  </tr>
+                  <tr>
+                    <td>Les vins rosés</td>
+                    <td>Rose pâle<br>jusqu'à 1 an</td>
+                    <td>Rose framboise<br>jusqu'à 3 ans</td>
+                    <td>Rose saumon<br>jusqu'à 5 ans</td>
+                    <td>Pelure d'oignon<br>jusqu'à 5 ans</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Les vins clairets</td>
+                    <td>Rouge cerise<br>1 à 2 ans</td>
+                    <td>Rouge framboise<br>2 à 3 ans</td>
+                    <td>Rose saumon<br>3 à 5 ans</td>
+                    <td>Pelure d'oignon<br>+ de 5 ans</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Les vins rouges</td>
+                    <td>Rouge violacé<br>1 à 2 ans</td>
+                    <td>Rouge rubis<br>3 à 5 ans</td>
+                    <td>Rouge grenat<br>5 à 10 ans</td>
+                    <td>Orange tuilé<br>10 à 20 ans</td>
+                    <td>Rouge ambré<br>+ de 20 ans</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="square col-6 col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>Le Nez</h2></div>
+              <div class="card-text">
+                <h3>1. Sentir le vin au repos</h3>
+                <p>Perception des arômes les plus volatiles du vin<br>Ouverture / Netteté / Intensité</p>
+                <h3>2. Agiter le vin</h3>
+                <p></p>
+                <h3>3. Ressetir le vin après agitation</h3>
+                <p>Complexité / Élégance<br>Arômes & bouquet</p>
+                <caption>Les 11 familles aromatiques</caption>
+                <table border="1">
+                  <tr>
+                    <td>Animal</td>
+                    <td>gibier / viande / cuir</td>
+                  </tr>
+                  <tr>
+                    <td>Balsamique</td>
+                    <td>encens / résine / pin</td>
+                  </tr>
+                  <tr>
+                    <td>Boisée</td>
+                    <td>tabac blond / bois neuf / crayon</td>
+                  </tr>
+                  <tr>
+                    <td>Chimique</td>
+                    <td>alcool / encre / iode marin</td>
+                  </tr>
+                  <tr>
+                    <td>Épicée</td>
+                    <td>poivre / réglisse / épices</td>
+                  </tr>
+                  <tr>
+                    <td>Empyreumatique</td>
+                    <td>fumée / café / caramel</td>
+                  </tr>
+                  <tr>
+                    <td>Éthérée</td>
+                    <td>bougie / pomme verte / bonbon acidulé</td>
+                  </tr>
+                  <tr>
+                    <td>Florale</td>
+                    <td>miel / fleurs séchées / fleurs fraîches</td>
+                  </tr>
+                  <tr>
+                    <td>Fruitée</td>
+                    <td>raisin / fruits secs / confitures</td>
+                  </tr>
+                  <tr>
+                    <td>Minérale</td>
+                    <td>calcaire / quartz / silex</td>
+                  </tr>
+                  <tr>
+                    <td>Végétale</td>
+                    <td>sous-bois / poivron / herbe</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="square col-6 col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title"><h2>La Bouche</h2></div>
+              <div class="card-text"><p>L'examen gustatif doit permettre de définir l'équilibre d'un vin. L'analyse en bouche se décompose de la façon suivante :</p>
+                <ul>
+                  <li>Prendre un peu de vin et le "mâcher" tout en inspirant un peu d'air. En expirant l'air par le nez, vous dissocierez les arômes du vin.</li>
+                  <li>Recracher le vin pour mesurer sa persistance aromatique, sa longueur en bouche. 1 seconde = 1 caudalie</li>
+                  <li>Examiner la qualité de la fin de bouche. Il est important que le vin finisse par une bonne note car c'est la dernière impression qui marque le plus.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+      </section>
+
+      <footer class="row">
+        <div class="footer col-12">réseaux sociaux</div>
+      </footer>
+
+    </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

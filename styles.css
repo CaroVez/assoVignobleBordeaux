@@ -1,1 +1,21 @@
-
+.logo {
+  background-color: lightseagreen;
+}
+.nav {
+  background-color: lightcyan;
+}
+.summary .card {
+  background-color: lightblue;
+  height: 150px;
+}
+.map .card {
+  background-image: url(images/Bordeaux01.jpg);
+  height: 277px;
+}
+.square .card {
+  background-color: lightgray;
+}
+.footer {
+  background-color: gray;
+  height: 75px;
+}
