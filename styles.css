@@ -4,17 +4,23 @@
 .nav {
   background-color: lightcyan;
 }
-.summary .card {
+.about {
   background-color: lightblue;
   height: 150px;
 }
-.map .card {
-  background-image: url(images/Bordeaux01.jpg);
-  height: 277px;
+.map {
+  background-image: url(images/carte-appellations.png);
+  background-repeat: no-repeat;
+  height: 767px;
+  width: 605px;
+  border: 1px solid black;
+  margin: 10px;
 }
-.square .card {
-  background-color: lightgray;
+
+.accordion-item {
+  
 }
+
 .footer {
   background-color: gray;
   height: 75px;
