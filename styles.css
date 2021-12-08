@@ -1,24 +1,57 @@
+@font-face 
+{
+	font-family: 'AstronBoy';
+	src: url('Fonts/astron_boy.otf');
+	src: url('Fonts/astron_boy_italic.otf');
+}
+body {
+  background: url(images/greyzz.png);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 28px;
+  color:rgb(120, 120, 120);
+}
+
 .navbar {
-  
+  background: url(images/greyzz.png);
 }
+
+h1 {
+  font-family: 'AstronBoy', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 72px;
+  color: rgb(129, 22, 85);
+}
+h2, .accordion-button {
+  font-size: 38px;
+  color: rgb(166, 83, 131);
+}
+h3 {
+  font-size: 32px;
+  color: rgb(201, 145, 178);
+}
+
 .about {
-  background-color: lightblue;
   height: 150px;
-}
-.map {
-  background-image: url(images/carte-appellations.png);
-  background-repeat: no-repeat;
-  height: 767px;
-  width: 605px;
-  border: 1px solid black;
   margin: 10px;
 }
 
-.accordion-item {
-  
+.accordion {
+  margin-top: 10px;
+}
+.card {
+  margin-top: 10px;
 }
 
 .footer {
-  background-color: gray;
-  height: 75px;
+  margin-top: 10px;
+  text-align: center;
+}
+footer ul
+{
+  list-style-type: none;
+	display: flex;
+  justify-content: center;
+}
+footer li
+{
+	margin: 10px;
 }
