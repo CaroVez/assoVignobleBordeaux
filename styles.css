@@ -20,7 +20,7 @@ h1 {
   font-size: 72px;
   color: rgb(129, 22, 85);
 }
-h2, .accordion-button {
+h2, .accordion-button, .bi {
   font-size: 38px;
   color: rgb(166, 83, 131);
 }
@@ -29,8 +29,7 @@ h3 {
   color: rgb(201, 145, 178);
 }
 
-.about {
-  height: 150px;
+.about, .openDays {
   margin: 10px;
 }
 
@@ -40,9 +39,27 @@ h3 {
 .card {
   margin-top: 10px;
 }
+.card-text ul {
+  list-style-type: none; 
+}
+
+table strong {
+  font-family: 'AstronBoy', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 38px;
+}
+#collapseThree table strong {
+  color: rgb(201, 145, 178);
+}
+td {
+  vertical-align: top;
+}
+#collapseFour td {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
 
 .footer {
-  margin-top: 10px;
+  margin-top: 50px;
   text-align: center;
 }
 footer ul
