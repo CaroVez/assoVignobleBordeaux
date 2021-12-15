@@ -72,3 +72,51 @@ footer li
 {
 	margin: 10px;
 }
+
+@media screen and (min-width: 992px) {
+  .img-fluid {
+    width: 800px;
+  }
+  body {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 54px;
+  }
+  h2, .accordion-button {
+    font-size: 28.5px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .bi {
+    width: 24px;
+  }
+  .logo {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-fluid {
+    width: 600px;
+  }
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2, .accordion-button {
+    font-size: 19px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .bi {
+    width: 16px;
+  }
+  .logo {
+    width: 40px;
+  }
+}
